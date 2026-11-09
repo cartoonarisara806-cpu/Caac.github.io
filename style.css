@@ -1,0 +1,101 @@
+/* ตั้งค่าพื้นฐานของเว็บไซต์ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* ส่วนหัวเว็บไซต์ */
+header {
+    background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* ส่วนเนื้อหา */
+section {
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    width: 85%;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #e75480;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ffc0cb;
+    padding-bottom: 8px;
+}
+
+/* ส่วนผลงาน */
+.project {
+    background-color: #fff5f8;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    border-left: 5px solid #ff91a4;
+}
+
+.project h3 {
+    color: #db7093;
+    margin-bottom: 8px;
+}
+
+/* ส่วนทักษะ */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ส่วนท้ายเว็บไซต์ */
+footer {
+    background-color: #db7093;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* รองรับหน้าจอโทรศัพท์ */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    section {
+        width: 92%;
+        padding: 20px;
+    }
+}
